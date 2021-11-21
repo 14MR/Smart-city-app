@@ -71,11 +71,11 @@
 
     <v-divider></v-divider>
 
-    <v-card-actions>
-      <v-btn text>
-        Full Report
-      </v-btn>
-    </v-card-actions>
+<!--    <v-card-actions>-->
+<!--      <v-btn text>-->
+<!--        Full Report-->
+<!--      </v-btn>-->
+<!--    </v-card-actions>-->
   </v-card>
 </template>
 
