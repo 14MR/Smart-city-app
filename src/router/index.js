@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import WeatherPage from '../views/WeatherPage'
+import ReportProblemPage from "@/views/ReportProblemPage";
+import About from "@/views/About";
 
 Vue.use(VueRouter)
 
@@ -13,18 +16,18 @@ const routes = [
     {
         path: '/weather',
         name: 'Weather',
-        component: () => import(/* webpackChunkName: "WeatherPage" */ '../views/WeatherPage.vue')
+        component: WeatherPage
     },
     {
         path: '/problem',
         name: 'ReportProblemPage',
-        component: () => import(/* webpackChunkName: "ReportProblemPage" */ '../views/ReportProblemPage.vue')
+        component: ReportProblemPage
     },
 
     {
         path: '/about',
         name: 'About',
-        component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+        component: About
     }
 ]
 

@@ -54,17 +54,18 @@ export default {
         flex: 12,
         link: 'parking'
       },
+
+      {
+        title: 'Report a problem',
+        src: 'https://www.budgetinsurance.com/wp-content/uploads/2019/06/potholes-main-article-image.jpg',
+        flex: 12,
+        link: '/problem'
+      },
       {
         title: 'Weather',
         src: 'https://media.istockphoto.com/vectors/vectot-weather-widget-for-smartphone-vector-id475696742?k=20&m=475696742&s=612x612&w=0&h=UD0dyd1VRDkBtI2EvsKNpyB79aNTbE0fCcQXYoO_kAA=',
         flex: 6,
         link: "/weather"
-      },
-      {
-        title: 'Report a problem',
-        src: 'https://www.budgetinsurance.com/wp-content/uploads/2019/06/potholes-main-article-image.jpg',
-        flex: 6,
-        link: '/problem'
       },
       {
         title: 'Buy train ticket',
