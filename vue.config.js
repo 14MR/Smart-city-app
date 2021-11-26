@@ -2,7 +2,7 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/Smart-city-app/'
-      : '/'
+  // publicPath: process.env.NODE_ENV === 'production'
+  //     ? '/Smart-city-app/'
+  //     : '/'
 }
